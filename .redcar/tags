@@ -1,7 +1,9 @@
-1313117138
+1313119630
 Application	/home/taphon/apps/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/taphon/apps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+PagesController	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	class PagesController 
+PagesHelper	/home/taphon/apps/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/home/taphon/apps/sample_app/config/application.rb	module SampleApp
 Str	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function Type(o)
@@ -27,6 +29,7 @@ clone	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function clon
 collect	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function collect(iterator, context)
 compact	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function compact()
 concat	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function concat()
+contact	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
 create	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function create()
 cssNameFor	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function cssNameFor(key)
@@ -75,6 +78,7 @@ grep	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function grep(
 gsub	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function gsub(pattern, replacement)
 handleMethod	/home/taphon/apps/sample_app/public/javascripts/rails.js	function handleMethod(element)
 handleRemote	/home/taphon/apps/sample_app/public/javascripts/rails.js	function handleRemote(element)
+home	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def home
 inGroupsOf	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
 include	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function include(object)
 include	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function include(pattern)
