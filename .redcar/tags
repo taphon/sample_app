@@ -1,4 +1,4 @@
-1313125390
+1315929373
 Application	/home/taphon/apps/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/taphon/apps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -166,6 +166,7 @@ succ	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function succ(
 succ	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function succ()
 times	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function times(count)
 times	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function times(iterator, context)
+title	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	  def title
 toArray	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function toArray()
 toArray	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function toArray()
 toCSSPixels	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function toCSSPixels(number)
