@@ -1,4 +1,4 @@
-1315930829
+1316101869
 Application	/home/taphon/apps/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/taphon/apps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -7,6 +7,7 @@ PagesHelper	/home/taphon/apps/sample_app/app/helpers/pages_helper.rb	module Page
 SampleApp	/home/taphon/apps/sample_app/config/application.rb	module SampleApp
 Str	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function Type(o)
+User	/home/taphon/apps/sample_app/user.rb	class User
 about	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def about
 abs	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function abs()
 absolutize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function absolutize(element)
@@ -49,6 +50,7 @@ each	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function each(
 each	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
 element	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function element(event)
+email	/home/taphon/apps/sample_app/user.rb	  attr_accessor :name, :email
 empty	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function empty()
 endsWith	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function endsWith(pattern)
 escapeHTML	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function escapeHTML()
@@ -69,6 +71,7 @@ fireContentLoadedEvent	/home/taphon/apps/sample_app/public/javascripts/prototype
 first	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function first()
 flatten	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function flatten()
 floor	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function floor()
+formatted_email	/home/taphon/apps/sample_app/user.rb	  def formatted_email
 get	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function get(key)
 getDimensions	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function getDimensions(element)
 getLayout	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function getLayout(element, preCompute)
@@ -128,6 +131,8 @@ merge	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function merg
 merge	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function merge(object)
 methodize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function methodize()
 min	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function min(iterator, context)
+name	/home/taphon/apps/sample_app/user.rb	  attr_accessor :name, :email
+new	/home/taphon/apps/sample_app/user.rb	  def new(attributes = {})
 observe	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
 parseColor	/home/taphon/apps/sample_app/public/javascripts/effects.js	function parseColor(color)
