@@ -1,4 +1,4 @@
-1317137110
+1317657459
 Application	/home/taphon/apps/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/taphon/apps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -79,6 +79,7 @@ grep	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function grep(
 gsub	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function gsub(pattern, replacement)
 handleMethod	/home/taphon/apps/sample_app/public/javascripts/rails.js	function handleMethod(element)
 handleRemote	/home/taphon/apps/sample_app/public/javascripts/rails.js	function handleRemote(element)
+help	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def help
 home	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def home
 inGroupsOf	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
 include	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function include(object)
@@ -120,6 +121,7 @@ keys	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function keys(
 klass	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function klass()
 last	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function last()
 lastIndexOf	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function lastIndexOf(item, i)
+logo	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	  def logo
 match	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function match()
 match	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function match(element, selector)
 max	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function max(iterator, context)
