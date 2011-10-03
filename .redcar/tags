@@ -1,4 +1,4 @@
-1317658464
+1317661891
 Application	/home/taphon/apps/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/taphon/apps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -7,6 +7,8 @@ PagesHelper	/home/taphon/apps/sample_app/app/helpers/pages_helper.rb	module Page
 SampleApp	/home/taphon/apps/sample_app/config/application.rb	module SampleApp
 Str	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function Type(o)
+UsersController	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	/home/taphon/apps/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def about
 abs	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function abs()
 absolutize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function absolutize(element)
@@ -130,6 +132,7 @@ merge	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function merg
 merge	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function merge(object)
 methodize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function methodize()
 min	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function min(iterator, context)
+new	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def new
 observe	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
 parseColor	/home/taphon/apps/sample_app/public/javascripts/effects.js	function parseColor(color)
