@@ -1,4 +1,5 @@
-1317737772
+1317826346
+AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 Application	/home/taphon/apps/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/taphon/apps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -50,6 +51,7 @@ dirCheck	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function d
 dirNodeCheck	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dispatch	/home/taphon/apps/sample_app/public/javascripts/effects.js	function dispatch(effect, eventName)
 down	/home/taphon/apps/sample_app/db/migrate/20111003172542_create_users.rb	  def self.down
+down	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	  def self.down
 each	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function each(iterator)
 each	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -197,6 +199,7 @@ unfilterJSON	/home/taphon/apps/sample_app/public/javascripts/prototype.js	functi
 uniq	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function uniq(sorted)
 unset	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function unset(key)
 up	/home/taphon/apps/sample_app/db/migrate/20111003172542_create_users.rb	  def self.up
+up	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	  def self.up
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(array, args)
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(element, content)
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(object)
