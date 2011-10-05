@@ -1,4 +1,4 @@
-1317827875
+1317832276
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 Application	/home/taphon/apps/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/taphon/apps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
@@ -143,6 +143,7 @@ on	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function on(elem
 parseColor	/home/taphon/apps/sample_app/public/javascripts/effects.js	function parseColor(color)
 parseJSON	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function parseJSON()
 partition	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function partition(iterator, context)
+password	/home/taphon/apps/sample_app/app/models/user.rb	  attr_accessor   :password
 pluck	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function pluck(property)
 pointer	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function pointer(event)
 pointerX	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function pointerX(event)
