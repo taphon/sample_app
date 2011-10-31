@@ -1,6 +1,7 @@
-1317914366
+1320080808
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
+AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
 Application	/home/taphon/apps/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/taphon/apps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -54,11 +55,14 @@ dispatch	/home/taphon/apps/sample_app/public/javascripts/effects.js	function dis
 down	/home/taphon/apps/sample_app/db/migrate/20111003172542_create_users.rb	  def self.down
 down	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	  def self.down
 down	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	  def self.down
+down	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	  def self.down
 each	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function each(iterator)
 each	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
 element	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function element(event)
 empty	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function empty()
+encrypt	/home/taphon/apps/sample_app/app/models/user.rb	  def encrypt(string)
+encrypt_password	/home/taphon/apps/sample_app/app/models/user.rb	  def encrypt_password
 endsWith	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function endsWith(pattern)
 escapeHTML	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function escapeHTML()
 evalJSON	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function evalJSON(sanitize)
@@ -88,6 +92,7 @@ grep	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function grep(
 gsub	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function gsub(pattern, replacement)
 handleMethod	/home/taphon/apps/sample_app/public/javascripts/rails.js	function handleMethod(element)
 handleRemote	/home/taphon/apps/sample_app/public/javascripts/rails.js	function handleRemote(element)
+has_password?	/home/taphon/apps/sample_app/app/models/user.rb	  def has_password?(submitted_password)
 help	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def help
 home	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def home
 inGroupsOf	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
@@ -131,6 +136,7 @@ klass	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function klas
 last	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function last()
 lastIndexOf	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function lastIndexOf(item, i)
 logo	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	  def logo
+make_salt	/home/taphon/apps/sample_app/app/models/user.rb	  def make_salt
 match	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function match()
 match	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function match(element, selector)
 max	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function max(iterator, context)
@@ -159,6 +165,7 @@ relativize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function
 reverse	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function reverse(inline)
 round	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function round()
 scan	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function scan(pattern, iterator)
+secure_hash	/home/taphon/apps/sample_app/app/models/user.rb	  def secure_hash(string)
 select	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function select()
 select	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function select(selector, scope)
 set	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function set(key, value)
@@ -205,6 +212,7 @@ unset	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function unse
 up	/home/taphon/apps/sample_app/db/migrate/20111003172542_create_users.rb	  def self.up
 up	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	  def self.up
 up	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	  def self.up
+up	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	  def self.up
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(array, args)
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(element, content)
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(object)
