@@ -1,5 +1,4 @@
 Factory.define :user do |user|
-  user.name
   user.name                   "Taphon Maddison"
   user.email                  "taphon@gmail.com"
   user.password               "foobar"
