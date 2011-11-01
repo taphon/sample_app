@@ -1,4 +1,4 @@
-1320080808
+1320156842
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
 AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
@@ -169,7 +169,7 @@ secure_hash	/home/taphon/apps/sample_app/app/models/user.rb	  def secure_hash(st
 select	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function select()
 select	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function select(selector, scope)
 set	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function set(key, value)
-show	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def show
+show	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	   def show
 size	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function size()
 size	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function size()
 sortBy	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function sortBy(iterator, context)
