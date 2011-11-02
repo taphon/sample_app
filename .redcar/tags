@@ -1,4 +1,4 @@
-1320163216
+1320244106
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
 AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
@@ -88,6 +88,7 @@ getLayout	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function 
 getOffsetParent	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function getOffsetParent(element)
 getPixelValue	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function getPixelValue(value, property)
 getRootElement	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function getRootElement()
+gravatar_for	/home/taphon/apps/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { :size => 50 })
 grep	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function grep(filter, iterator, context)
 gsub	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function gsub(pattern, replacement)
 handleMethod	/home/taphon/apps/sample_app/public/javascripts/rails.js	function handleMethod(element)
@@ -169,7 +170,7 @@ secure_hash	/home/taphon/apps/sample_app/app/models/user.rb	  def secure_hash(st
 select	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function select()
 select	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function select(selector, scope)
 set	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function set(key, value)
-show	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	   def show
+show	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def show
 size	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function size()
 size	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function size()
 sortBy	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function sortBy(iterator, context)
