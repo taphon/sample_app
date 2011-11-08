@@ -1,4 +1,4 @@
-1320768878
+1320772835
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
 AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
@@ -24,6 +24,8 @@ addText	/home/taphon/apps/sample_app/public/javascripts/controls.js	function add
 all	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function all(iterator, context)
 any	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function any(iterator, context)
 argumentNames	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function argumentNames()
+authenticate	/home/taphon/apps/sample_app/app/models/user.rb	    def authenticate(email, submitted_password)
+authenticate_with_salt	/home/taphon/apps/sample_app/app/models/user.rb	    def authenticate_with_salt(id, cookie_salt)
 bind	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function bind(context)
 bindAsEventListener	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function bindAsEventListener(context)
 blank	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function blank()
@@ -47,6 +49,8 @@ create	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function cre
 cssNameFor	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function cumulativeOffset(element)
 cumulativeScrollOffset	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function cumulativeScrollOffset(element)
+current_user	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def current_user
+current_user=	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
 curry	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function curry()
 dasherize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function dasherize()
 defer	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function defer()
@@ -169,6 +173,7 @@ prepareReplacement	/home/taphon/apps/sample_app/public/javascripts/prototype.js	
 purgeElement	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function purgeElement(element)
 reject	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function reject(iterator, context)
 relativize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function relativize(element)
+remember_token	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	    def remember_token
 reverse	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function reverse(inline)
 round	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function round()
 scan	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function scan(pattern, iterator)
@@ -177,6 +182,8 @@ select	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function sel
 select	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function select(selector, scope)
 set	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function set(key, value)
 show	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def show
+sign_in	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
+signed_in?	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
 size	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function size()
 size	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function size()
 sortBy	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function sortBy(iterator, context)
@@ -223,6 +230,7 @@ up	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	 
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(array, args)
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(element, content)
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(object)
+user_from_remember_token	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	    def user_from_remember_token
 values	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function values()
 values	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function values(object)
 viewportOffset	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function viewportOffset(forElement)
