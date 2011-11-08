@@ -1,4 +1,4 @@
-1320248680
+1320768878
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
 AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
@@ -9,6 +9,8 @@ CreateUsers	/home/taphon/apps/sample_app/db/migrate/20111003172542_create_users.
 PagesController	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	/home/taphon/apps/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/home/taphon/apps/sample_app/config/application.rb	module SampleApp
+SessionsController	/home/taphon/apps/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
 Str	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function Type(o)
 User	/home/taphon/apps/sample_app/app/models/user.rb	class User 
@@ -39,6 +41,8 @@ compact	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function co
 concat	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function concat()
 contact	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/home/taphon/apps/sample_app/app/controllers/sessions_controller.rb	  def create
+create	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def create
 create	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function create()
 cssNameFor	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function cumulativeOffset(element)
@@ -48,6 +52,7 @@ dasherize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function 
 defer	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function defer()
 define	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function define(D)
 delay	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function delay(timeout)
+destroy	/home/taphon/apps/sample_app/app/controllers/sessions_controller.rb	  def destroy
 detect	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function detect(iterator, context)
 dirCheck	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dirNodeCheck	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
@@ -146,6 +151,7 @@ merge	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function merg
 merge	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function merge(object)
 methodize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function methodize()
 min	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function min(iterator, context)
+new	/home/taphon/apps/sample_app/app/controllers/sessions_controller.rb	  def new
 new	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def new
 observe	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function on(element, eventName, selector, callback)

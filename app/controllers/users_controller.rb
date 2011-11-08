@@ -9,4 +9,16 @@ class UsersController < ApplicationController
     @user = User.new
     @title = "Sign up" 
   end
+  
+  def create
+    #Inspect User object at time of creation
+    #raise params[:user].inspect
+    @user = User.new(params[:user])
+    if @user.save
+      redirect_to @user, :flash => {:success => "Welcome to the sample app"}
+    else
+      @title = "Sign up"
+      render 'new'
+    end
+  end
 end
