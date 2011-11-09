@@ -1,4 +1,4 @@
-1320772835
+1320857599
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
 AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
@@ -183,6 +183,7 @@ select	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function sel
 set	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function set(key, value)
 show	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def show
 sign_in	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
+sign_out	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def sign_out
 signed_in?	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
 size	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function size()
 size	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function size()
@@ -199,6 +200,7 @@ sub	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function sub(pa
 subclass	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function subclass()
 succ	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function succ()
 succ	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function succ()
+test_sign_in	/home/taphon/apps/sample_app/spec/spec_helper.rb	  def test_sign_in(user)
 times	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function times(count)
 times	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function times(iterator, context)
 title	/home/taphon/apps/sample_app/app/helpers/application_helper.rb	  def title

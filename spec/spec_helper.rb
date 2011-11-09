@@ -24,4 +24,14 @@ RSpec.configure do |config|
   # examples within a transaction, remove the following line or assign false
   # instead of true.
   config.use_transactional_fixtures = true
+  
+  # Spork hack. See http://bit.ly/arY19y
+  # Emulate initalizer set_clear_dependencies_hook in
+  # railties/lib/rails/application/bootstrap.rb
+  # ActiveSupport::Dependencies.clear
+
+
+  def test_sign_in(user)
+    controller.sign_in(user)
+  end
 end
