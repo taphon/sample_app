@@ -1,4 +1,4 @@
-1320857599
+1321294308
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
 AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
@@ -68,6 +68,7 @@ down	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb
 each	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function each(iterator)
 each	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
+edit	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def edit
 element	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function element(event)
 empty	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function empty()
 encrypt	/home/taphon/apps/sample_app/app/models/user.rb	  def encrypt(string)
@@ -229,6 +230,7 @@ up	/home/taphon/apps/sample_app/db/migrate/20111003172542_create_users.rb	  def 
 up	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	  def self.up
 up	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	  def self.up
 up	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	  def self.up
+update	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def update
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(array, args)
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(element, content)
 update	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function update(object)
