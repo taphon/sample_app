@@ -1,4 +1,4 @@
-1321294308
+1321376623
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
 AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
@@ -24,6 +24,7 @@ addText	/home/taphon/apps/sample_app/public/javascripts/controls.js	function add
 all	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function all(iterator, context)
 any	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function any(iterator, context)
 argumentNames	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function argumentNames()
+authenticate	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	    def authenticate
 authenticate	/home/taphon/apps/sample_app/app/models/user.rb	    def authenticate(email, submitted_password)
 authenticate_with_salt	/home/taphon/apps/sample_app/app/models/user.rb	    def authenticate_with_salt(id, cookie_salt)
 bind	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function bind(context)
@@ -56,6 +57,7 @@ dasherize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function 
 defer	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function defer()
 define	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function define(D)
 delay	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function delay(timeout)
+deny_access	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def deny_access
 destroy	/home/taphon/apps/sample_app/app/controllers/sessions_controller.rb	  def destroy
 detect	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function detect(iterator, context)
 dirCheck	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
