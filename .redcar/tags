@@ -1,4 +1,4 @@
-1321376623
+1321404109
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
 AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
@@ -36,6 +36,7 @@ ceil	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function ceil(
 checkDeficiency	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function checkDeficiency(tagName)
 checkReadyState	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function checkReadyState()
 clear	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function clear()
+clear_return_to	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def clear_return_to
 clone	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function clone()
 clone	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function clone()
 clone	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function clone(object)
@@ -44,6 +45,7 @@ compact	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function co
 concat	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function concat()
 contact	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+correct_user	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	    def correct_user
 create	/home/taphon/apps/sample_app/app/controllers/sessions_controller.rb	  def create
 create	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def create
 create	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function create()
@@ -52,6 +54,7 @@ cumulativeOffset	/home/taphon/apps/sample_app/public/javascripts/prototype.js	fu
 cumulativeScrollOffset	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function cumulativeScrollOffset(element)
 current_user	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def current_user
 current_user=	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
+current_user?	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def current_user?(user)
 curry	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function curry()
 dasherize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function dasherize()
 defer	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function defer()
@@ -174,6 +177,7 @@ pollDoScroll	/home/taphon/apps/sample_app/public/javascripts/prototype.js	functi
 positionedOffset	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function positionedOffset(element)
 prepareReplacement	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function prepareReplacement(replacement)
 purgeElement	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function purgeElement(element)
+redirect_back_or	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def redirect_back_or(default)
 reject	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function reject(iterator, context)
 relativize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function relativize(element)
 remember_token	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	    def remember_token
@@ -194,6 +198,7 @@ sortBy	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function sor
 startsWith	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function startsWith(pattern)
 stop	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function stop(event)
 stopObserving	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function stopObserving(element, eventName, handler)
+store_location	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def store_location
 stringify	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function stringify(object)
 strip	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function strip()
 stripAlpha	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function stripAlpha(filter)
