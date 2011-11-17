@@ -1,4 +1,4 @@
-1321404109
+1321501891
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
 AddSaltToUsers	/home/taphon/apps/sample_app/db/migrate/20111006161122_add_salt_to_users.rb	class AddSaltToUsers 
@@ -115,6 +115,7 @@ inGroupsOf	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function
 include	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function include(object)
 include	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function include(pattern)
 include	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function include(value)
+index	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def index
 index	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function index(value)
 indexOf	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function indexOf(item, i)
 initialize	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function initialize(object)
