@@ -116,24 +116,24 @@ table.profile{
 }
 
 td.main {
-  width:70px;
+  width: 150px;
   padding: 1em;
 }
 
 td.sidebar{
-  width: 30px;
+  width: 30%;
   padding: 1em;
   vertical-align: top;
-  background: #ffc;
+  background: #ffa;
 }
 
 .profile img.gravatar{
   border: 1px solid #999;
-  margin-bottom: -15px;
+  margin-bottom: 15px;
 }
 
 div.field, div.actions{
-margin-bottom: 10px;
+margin-bottom: 5px;
 }
 
 
@@ -185,5 +185,5 @@ ul.users {
 }
 
 ul.users li{
-  list-style-type: square;
+  list-style-type: none;
 }
