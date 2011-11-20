@@ -1,4 +1,4 @@
-1321758013
+1321758187
 AddAdminToUsers	/home/taphon/apps/sample_app/db/migrate/20111119022328_add_admin_to_users.rb	class AddAdminToUsers 
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
