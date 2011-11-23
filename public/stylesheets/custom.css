@@ -111,12 +111,12 @@ footer nav{
 /*User show page */
 
 table.profile{
-  width: 100px;
+  width: 100%;
   margin-bottom: 0;
 }
 
 td.main {
-  width: 150px;
+  width: 70%;
   padding: 1em;
 }
 
@@ -129,7 +129,7 @@ td.sidebar{
 
 .profile img.gravatar{
   border: 1px solid #999;
-  margin-bottom: 15px;
+  margin-bottom: -15px;
 }
 
 div.field, div.actions{
@@ -151,7 +151,7 @@ margin-bottom: 5px;
 }
 
 #error_explanation {
-  width: 400px;
+  width: 500px;
   border: 2px solid red;
   padding: 7px;
   padding-bottom: 12px;
@@ -163,20 +163,21 @@ margin-bottom: 5px;
   text-align: left;
   font-weight: bold;
   padding: 5px 5px 5px 5px 15px;
-  font-size: 12px;
+  font-size: 17px;
   margin: -7px;
   background-color: #c00;
   color: #fff;
 }
 
 #error_explanation p {
+  font-size: 20px;
   color: #333;
   margin-bottom: 0;
   padding: 5px;
 }
 
 #error_explanation ul li {
-  font-size: 12px;
+  font-size: 17px;
   list-style: square;
 }
 
@@ -187,3 +188,60 @@ ul.users {
 ul.users li{
   list-style-type: none;
 }
+
+/*Micropost styling*/
+
+h1.micropost {
+  margin-bottom: 0.3em;
+}
+
+table.microposts {
+  margin-top: 1em;
+}
+
+table.microposts {
+  height: 70px;
+}
+
+table.microposts tr td.gravatar {
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  width: 50px;
+}
+
+table.microposts tr td.micropost {
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+table.microposts tr td.micropost span.timestamp {
+  display: block;
+  font-size: 85%;
+  color: #666;
+}
+
+div.user_info a {
+  text-decoration: none; 
+}
+
+div.user_info span.user_name {
+  position: absolute;
+}
+
+div.user_info span.microposts {
+  font-size: 80%;
+}
+
+form.new micropost {
+  margin-bottom: 2em;
+}
+
+form.new_micropost textarea {
+hight: 4em;
+margin-bottom: 0;
+}
+
+
+
+

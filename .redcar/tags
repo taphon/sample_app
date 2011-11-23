@@ -1,4 +1,4 @@
-1321978381
+1322067174
 AddAdminToUsers	/home/taphon/apps/sample_app/db/migrate/20111119022328_add_admin_to_users.rb	class AddAdminToUsers 
 AddEmailUniquenessIndex	/home/taphon/apps/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
@@ -9,6 +9,7 @@ ApplicationHelper	/home/taphon/apps/sample_app/app/helpers/application_helper.rb
 CreateMicroposts	/home/taphon/apps/sample_app/db/migrate/20111121165551_create_microposts.rb	class CreateMicroposts 
 CreateUsers	/home/taphon/apps/sample_app/db/migrate/20111003172542_create_users.rb	class CreateUsers 
 Micropost	/home/taphon/apps/sample_app/app/models/micropost.rb	class Micropost 
+MicropostsController	/home/taphon/apps/sample_app/app/controllers/microposts_controller.rb	class MicropostsController 
 PagesController	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	/home/taphon/apps/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/home/taphon/apps/sample_app/config/application.rb	module SampleApp
@@ -29,6 +30,7 @@ all	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function all(it
 any	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function any(iterator, context)
 argumentNames	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function argumentNames()
 authenticate	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	    def authenticate
+authenticate	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def authenticate
 authenticate	/home/taphon/apps/sample_app/app/models/user.rb	    def authenticate(email, submitted_password)
 authenticate_with_salt	/home/taphon/apps/sample_app/app/models/user.rb	    def authenticate_with_salt(id, cookie_salt)
 bind	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function bind(context)
@@ -50,6 +52,7 @@ concat	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function con
 contact	/home/taphon/apps/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
 correct_user	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	    def correct_user
+create	/home/taphon/apps/sample_app/app/controllers/microposts_controller.rb	  def create
 create	/home/taphon/apps/sample_app/app/controllers/sessions_controller.rb	  def create
 create	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	  def create
 create	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function create()
@@ -65,6 +68,7 @@ defer	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function defe
 define	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function define(D)
 delay	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function delay(timeout)
 deny_access	/home/taphon/apps/sample_app/app/helpers/sessions_helper.rb	  def deny_access
+destroy	/home/taphon/apps/sample_app/app/controllers/microposts_controller.rb	  def destroy
 destroy	/home/taphon/apps/sample_app/app/controllers/sessions_controller.rb	  def destroy
 destroy	/home/taphon/apps/sample_app/app/controllers/users_controller.rb	    def destroy
 detect	/home/taphon/apps/sample_app/public/javascripts/prototype.js	function detect(iterator, context)
