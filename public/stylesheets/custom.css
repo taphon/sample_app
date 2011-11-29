@@ -1,5 +1,5 @@
 .container {
-  width: 720px;
+  width: 710px;
 }
 
 body {
@@ -10,7 +10,7 @@ header {
   padding-top: 20px;
 }
 
-header img{
+header img {
   padding: 1em;
   background: #fff;
 }
@@ -22,59 +22,62 @@ section {
   background: #fff;
 }
 
-/* Links style*/
+section h1 {
+  font-size: 100%;
+}
+
+/* Links */
 
 a {
   color: #09c;
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #069;
   text-decoration: underline;
 }
 
-a:visited{
-  color:#069;
+a:visited {
+  color: #069;
 }
 
-/*Nav style*/
+/* Navigation */
 
-nav{
+nav {
   float: right;
-  background: #fff;
+  background: white;
   padding: 0 0.7em;
   white-space: nowrap;
-  -moz-border-radius: 5px;
-  -wekit-border-radius: 5px;
-  border-radius: 5px;
 }
 
-nav ul{
-  margin: 0px;
-  padding: 0px;
+nav ul {
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li{
+nav ul li {
   list-style-type: none;
   display: inline-block;
-  padding:0.2em 0;
+  padding: 0.2em 0;
 }
 
-nav ul li a{
-  padding:0 5px;
+nav ul li a {
+  padding: 0 5px;
   font-weight: bold;
 }
 
-nav ul li a:visited{
+nav ul li a:visited {
   color: #09c;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   text-decoration: underline;
 }
 
-a.signup_button{
+/* Sign up button */
+
+a.signup_button {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -87,17 +90,17 @@ a.signup_button{
   padding: 20px;
 }
 
-/*round corners*/
+/* Round corners */
 
-.round{
-  -moz-border-radius: 5px;
-  -wekit-border-radius: 5px;
-  border-radius: 5px;
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
 }
 
-/*footer*/
+/* Footer */
 
-footer{
+footer {
   text-align: center;
   margin-top: 10px;
   width: 710px;
@@ -105,39 +108,39 @@ footer{
   margin-right: auto;
 }
 
-footer nav{
-  float:none;
+footer nav {
+  float: none;
 }
-/*User show page */
 
-table.profile{
-  width: 100px;
+/* User show page */
+
+table.profile {
+  width: 100%;
   margin-bottom: 0;
 }
 
 td.main {
-  width: 150px;
+  width: 70%;
   padding: 1em;
 }
 
-td.sidebar{
+td.sidebar {
   width: 30%;
   padding: 1em;
   vertical-align: top;
-  background: #ffa;
+  background: #ffc;
 }
 
-.profile img.gravatar{
+.profile img.gravatar {
   border: 1px solid #999;
-  margin-bottom: 15px;
+  margin-bottom: -15px;
 }
 
-div.field, div.actions{
-margin-bottom: 5px;
+div.field, div.actions {
+  margin-bottom: 10px;
 }
 
-
-/* Error notifications for signup page*/
+/*  Error messages */
 
 .field_with_errors {
   margin-top: 10px;
@@ -162,7 +165,7 @@ margin-bottom: 5px;
 #error_explanation h2 {
   text-align: left;
   font-weight: bold;
-  padding: 5px 5px 5px 5px 15px;
+  padding: 5px 5px 5px 15px;
   font-size: 12px;
   margin: -7px;
   background-color: #c00;
@@ -184,6 +187,63 @@ ul.users {
   margin-top: 1em;
 }
 
-ul.users li{
-  list-style-type: none;
+ul.users li {
+  list-style: none;
+}
+
+/*  Micropost styling */
+
+h1.micropost {
+  margin-bottom: 0.3em;
+}
+
+table.microposts {
+  margin-top: 1em;
+}
+
+table.microposts tr {
+  height: 70px;
+}
+
+table.microposts tr td.gravatar {
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  width: 50px;
+}
+
+table.microposts tr td.micropost {
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+table.microposts tr td.micropost span.timestamp {
+  display: block;
+  font-size: 85%;
+  color: #666;
+}
+
+div.user_info img {
+  padding-right: 0.1em;
+}
+
+div.user_info a {
+  text-decoration: none;
+}
+
+div.user_info span.user_name {
+  position: absolute;
+}
+
+div.user_info span.microposts {
+  font-size: 80%;
+}
+
+form.new_micropost {
+  margin-bottom: 2em;
+}
+
+form.new_micropost textarea {
+  height: 4em;
+  margin-bottom: 0;
 }

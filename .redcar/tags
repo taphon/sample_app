@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1322590142
 ApplicationHelper	/home/taphon/apps/missive/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 PagesController	/home/taphon/apps/missive/sample_app/app/controllers/pages_controller.rb	class PagesController 
@@ -42,3 +43,10 @@ store_location	/home/taphon/apps/missive/sample_app/app/helpers/sessions_helper.
 title	/home/taphon/apps/missive/sample_app/app/helpers/application_helper.rb	  def title
 update	/home/taphon/apps/missive/sample_app/app/controllers/users_controller.rb	  def update
 user_from_remember_token	/home/taphon/apps/missive/sample_app/app/helpers/sessions_helper.rb	    def user_from_remember_token
+=======
+1322589156
+MicropostsController	/home/taphon/apps/missive/sample_app/app/controllers/microposts_controller.rb	class MicropostsController 
+authorized_user	/home/taphon/apps/missive/sample_app/app/controllers/microposts_controller.rb	  def authorized_user
+create	/home/taphon/apps/missive/sample_app/app/controllers/microposts_controller.rb	  def create
+destroy	/home/taphon/apps/missive/sample_app/app/controllers/microposts_controller.rb	  def destroy
+>>>>>>> micro-post
