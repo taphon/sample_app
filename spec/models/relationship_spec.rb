@@ -28,7 +28,7 @@ describe Relationship do
       @relationship.should respond_to(:followed)
     end
     
-    it "should have the right followed" do
+    it "should have the right followed user" do
       @relationship.followed.should == @followed
     end
   end
