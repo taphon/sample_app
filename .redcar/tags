@@ -1,4 +1,4 @@
-1323707170
+1323795698
 AddAdminToUsers	/home/taphon/apps/missive/sample_app/db/migrate/20111119022328_add_admin_to_users.rb	class AddAdminToUsers 
 AddEmailUniquenessIndex	/home/taphon/apps/missive/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/missive/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
@@ -113,6 +113,8 @@ fireContentLoadedEvent	/home/taphon/apps/missive/sample_app/public/javascripts/p
 first	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function first()
 flatten	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function flatten()
 floor	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function floor()
+follow!	/home/taphon/apps/missive/sample_app/app/models/user.rb	  def follow!(followed)
+following?	/home/taphon/apps/missive/sample_app/app/models/user.rb	  def following?(followed)
 get	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function get(key)
 getDimensions	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function getDimensions(element)
 getLayout	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function getLayout(element, preCompute)
@@ -248,6 +250,7 @@ truncate	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	fu
 underscore	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function underscore()
 unescapeHTML	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function unescapeHTML()
 unfilterJSON	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function unfilterJSON(filter)
+unfollow!	/home/taphon/apps/missive/sample_app/app/models/user.rb	  def unfollow!(followed)
 uniq	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function uniq(sorted)
 unset	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function unset(key)
 up	/home/taphon/apps/missive/sample_app/db/migrate/20111003172542_create_users.rb	  def self.up
