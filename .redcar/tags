@@ -1,4 +1,4 @@
-1323795698
+1323967872
 AddAdminToUsers	/home/taphon/apps/missive/sample_app/db/migrate/20111119022328_add_admin_to_users.rb	class AddAdminToUsers 
 AddEmailUniquenessIndex	/home/taphon/apps/missive/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/missive/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
@@ -114,6 +114,8 @@ first	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	funct
 flatten	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function flatten()
 floor	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function floor()
 follow!	/home/taphon/apps/missive/sample_app/app/models/user.rb	  def follow!(followed)
+followers	/home/taphon/apps/missive/sample_app/app/controllers/users_controller.rb	  def followers
+following	/home/taphon/apps/missive/sample_app/app/controllers/users_controller.rb	  def following
 following?	/home/taphon/apps/missive/sample_app/app/models/user.rb	  def following?(followed)
 get	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function get(key)
 getDimensions	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function getDimensions(element)

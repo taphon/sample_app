@@ -4,7 +4,7 @@
       <h1>
         <%= gravatar_for @user%>
         <%= @user.name %>
-      </h1>
+      </h1><br />
       <%= render 'follow_form' if signed_in? %>
       <% if @user.microposts.any? %>
       <table class="microposts" summary="User micropost">
