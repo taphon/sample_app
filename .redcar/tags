@@ -1,4 +1,4 @@
-1323995950
+1324056610
 AddAdminToUsers	/home/taphon/apps/missive/sample_app/db/migrate/20111119022328_add_admin_to_users.rb	class AddAdminToUsers 
 AddEmailUniquenessIndex	/home/taphon/apps/missive/sample_app/db/migrate/20111005144517_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUser	/home/taphon/apps/missive/sample_app/db/migrate/20111006151739_add_password_to_user.rb	class AddPasswordToUser 
@@ -117,6 +117,7 @@ first	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	funct
 flatten	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function flatten()
 floor	/home/taphon/apps/missive/sample_app/public/javascripts/prototype.js	function floor()
 follow!	/home/taphon/apps/missive/sample_app/app/models/user.rb	  def follow!(followed)
+followed_by	/home/taphon/apps/missive/sample_app/app/models/micropost.rb	  def self.followed_by(user)
 followers	/home/taphon/apps/missive/sample_app/app/controllers/users_controller.rb	  def followers
 following	/home/taphon/apps/missive/sample_app/app/controllers/users_controller.rb	  def following
 following?	/home/taphon/apps/missive/sample_app/app/models/user.rb	  def following?(followed)

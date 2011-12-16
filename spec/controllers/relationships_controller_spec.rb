@@ -57,5 +57,6 @@ describe RelationshipsController do
         xhr :delete, :destroy, :id => @relationship
         response.should be_success
       end.should change(Relationship, :count).by(-1)
-  end  
+    end  
+  end
 end
