@@ -5,28 +5,28 @@ namespace :db do
   task :populate => :environment do
     Rake::Task['db:reset'].invoke
     make_users
-    make_microposts
-    make_relationships  
+    #make_microposts
+    #make_relationships  
   end
 end  
 
 def make_users
     
-    admin = User.create!(:name => "Example User",
-                        :email => "example@rubyspike.com",
-                        :password => "foobar",
-                        :password_confirmation => "foobar")
+    admin = User.create!(:name => "Taphon",
+                        :email => "taphon@gmail.com",
+                        :password => "Bokeh..0",
+                        :password_confirmation => "Bokeh..0")
     admin.toggle!(:admin)
 
-    99.times do |n|
-      name = Faker::Name.name
-      email = "email-#{n+1}@rubyspike.com"
-      password = "password"
-      User.create!(:name => name,
-                   :email => email,
-                   :password => password,
-                   :password_confirmation => password)
-    end
+#    99.times do |n|
+#      name = Faker::Name.name
+#      email = "email-#{n+1}@rubyspike.com"
+#      password = "password"
+#      User.create!(:name => name,
+#                   :email => email,
+#                   :password => password,
+#                   :password_confirmation => password)
+#    end
   end
 
 def make_microposts

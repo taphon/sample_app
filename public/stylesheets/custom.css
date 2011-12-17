@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #cff;
+  background: #910909;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 
 header img {
   padding: 1em;
-  background: #fff;
+  background: #910909;
 }
 
 section {
@@ -46,7 +46,7 @@ a:visited {
 
 nav {
   float: right;
-  background: white;
+  background: #fff;
   padding: 0 0.7em;
   white-space: nowrap;
 }
@@ -128,7 +128,7 @@ td.sidebar {
   width: 30%;
   padding: 1em;
   vertical-align: top;
-  background: #ffc;
+  background: #ffa;
 }
 
 .profile img.gravatar {
@@ -246,4 +246,9 @@ form.new_micropost {
 form.new_micropost textarea {
   height: 4em;
   margin-bottom: 0;
+}
+
+/* Home Page Descriptor*/
+p.descriptor {
+  text-align: center;
 }
